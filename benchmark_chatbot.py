@@ -480,7 +480,7 @@ def run_benchmark(token: str, iterations: int = 5) -> Dict:
 
 def generate_html_report(results: Dict, output_file: str):
     """
-    Generate an HTML report from benchmark results.
+    Generate an HTML report from the benchmark results.
     """
     iterations = results['iterations']
     html = f"""<!DOCTYPE html>
