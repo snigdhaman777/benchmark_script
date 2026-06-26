@@ -59,7 +59,7 @@ def print_timer(stop_event: Event, start_time: float):
 
 def make_request(query: str, token: str, silent: bool = False) -> Tuple[float, float, str, bool]:
     """
-    Make a streaming request and measure timing metrics.
+    Make a streaming request and measure timing metrics
 
     Args:
         query: The query string to send
