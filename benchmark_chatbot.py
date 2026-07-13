@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Benchmark script for chatbot endpoint.
-Measures TTFT (Time To First Token) and total response time.
+Measures the TTFT (Time To First Token) and total response time.
 """
 
 import argparse
